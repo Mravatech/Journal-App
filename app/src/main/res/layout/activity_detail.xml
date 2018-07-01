@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.avatech.challenge.journal.DetailActivity">
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:padding="8dp"
+        android:src="@mipmap/person_image"
+        android:layout_weight="0"
+        android:layout_gravity="center"
+        android:id="@+id/detail_activity_image_view"/>
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+            <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+                <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="@dimen/activity_horizontal_margin"
+                        android:text="Title :"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="@color/colorPrimary" />
+
+                    <Button
+                    android:id="@+id/title_mic_button"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="4dp"
+                    android:background="@mipmap/mic_button"
+                    android:padding="4dp" />
+            </LinearLayout>
+
+
+
+                <EditText
+                android:id="@+id/title_note"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_weight="1"
+                android:backgroundTint="@android:color/black"
+                android:hint="Add a title for your note"
+                android:paddingBottom="4dp"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="@android:color/black"
+                android:textCursorDrawable="@null" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:text="Date :"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="@color/colorPrimary" />
+
+                <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/date_selector"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_weight="0"
+                    android:background="@drawable/ic_date_range" />
+
+                    <TextView
+                    android:id="@+id/date_detail_activity"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="8dp"
+                    android:paddingTop="8dp"
+                    android:text="unknown date"
+                    android:textColor="@android:color/black" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description :"
+        android:paddingTop="@dimen/activity_horizontal_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/colorPrimary"/>
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="4dp"
+            android:padding="4dp"
+            android:background="@mipmap/mic_button"
+            android:id="@+id/description_mic_button"/>
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/black"
+        android:hint="Add some details"
+        android:textCursorDrawable="@null"
+        android:textColor="@android:color/black"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:id="@+id/description_detail_Activity"
+        />
+    </ScrollView>
+
+</LinearLayout>

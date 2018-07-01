@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "633043990852",
+    "firebase_url": "https://chat-cd879.firebaseio.com",
+    "project_id": "chat-cd879",
+    "storage_bucket": "chat-cd879.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:633043990852:android:c89bdf5dcbfaeffb",
+        "android_client_info": {
+          "package_name": "com.avatech.challenge.journal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "633043990852-b05l114458sseba97i9dcejf75sp5llv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.avatech.challenge.journal",
+            "certificate_hash": "1b513cab081701317ffb9758e606ca6183eb38fa"
+          }
+        },
+        {
+          "client_id": "633043990852-p6rjlqm28outegb0cfnr2r6mldqvrmpo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1v9NH1c52CsEQhxaMmsF532J2m-Ib1vY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "633043990852-p6rjlqm28outegb0cfnr2r6mldqvrmpo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

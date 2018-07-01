@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Journal App</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="loading">Loading…</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="log_error_occurred">"Error occurred: "</string>
+    <string name="web_client_id">633043990852-p6rjlqm28outegb0cfnr2r6mldqvrmpo.apps.googleusercontent.com</string>
+</resources>
