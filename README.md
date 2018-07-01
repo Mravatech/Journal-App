@@ -16,8 +16,8 @@ View the contents of a diary entry.
  <br/>
  <br/>
  <br/>
- <a href="app-release.apk">Link Release Apk</a>
+ <a href="app-release.apk">Link to Release Apk</a>
  </br>
-  <a href="app-debug.apk">Link Debug Apk</a>
+  <a href="app-debug.apk">Link to Debug Apk</a>
 
 
