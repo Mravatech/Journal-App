@@ -13,4 +13,6 @@ View all entries to their diary.
 View the contents of a diary entry.
  Add and modify an entry.
  Use of Voice to Text
+ 
+ <a href="app-release.apk">Release Apk</a>
 
